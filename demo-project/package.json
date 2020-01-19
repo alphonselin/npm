@@ -8,11 +8,13 @@
     "url": "https://github.com/alphonselin/npm.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow_check": "flow check || exit 0"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.4.1"
-  }
+  },
+  "devDependencies": {}
 }
